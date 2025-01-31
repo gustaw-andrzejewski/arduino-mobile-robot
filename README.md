@@ -8,8 +8,8 @@ Each mode represents a different approach to controlling the robot using various
 ## Implemented Modes
 Each mode is stored in a separate directory.
 
-- **Obstacle Detection (Mechanical Sensors)** – The robot detects obstacles using mechanical limit switches and changes direction upon contact.
-- **Line Follower** – Uses infrared sensors to follow a black line on a white surface.
-- **Light-Seeking Robot** – Moves towards the brightest light source using photoresistors.
-- **IR Remote-Controlled Robot** – Controlled via an infrared remote and an IR receiver module.
-- **Ultrasonic Sensor Robot** – Uses an HC-SR04 ultrasonic sensor mounted on a servo to scan the surroundings and avoid obstacles.
+- [**Obstacle Detection with mechanical sensors**](obstacle_detection_mechanical/README.md) – The robot detects obstacles using mechanical limit switches and changes direction upon contact.
+- [**Line Follower**](line_follower/README.md) – Uses infrared sensors to follow a black line on a white surface.
+- [**Light-Seeking Robot**](photoresistor/README.md) – Moves towards the brightest light source using photoresistors.
+- [**IR Remote-Controlled Robot**](pilot_IR/README.md) – Controlled via an infrared remote and an IR receiver module.
+- [**Obstacle Detection with ultrasonic sensor**](obstacle_detection_ultrasonic/README.md) – Uses an HC-SR04 ultrasonic sensor mounted on a servo to scan the surroundings and avoid obstacles.
